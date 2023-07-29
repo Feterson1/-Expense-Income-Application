@@ -19,10 +19,10 @@
 
 @layer components {
   .btn {
-    @apply flex gap-2 items-center text-sm text-white py-2 px-4 rounded-md;
+    @apply flex gap-2 items-center  text-white py-2 px-4 rounded-md text-white;
   }
   .input{
-    @apply bg-transparent p-2 border bg-slate-700 placeholder:text-white rounded-md outlined-none focus:border-slate-300;
+    @apply bg-transparent p-2 border bg-slate-700 placeholder:text-sm placeholder:text-white rounded-md outline-none focus:border-slate-300;
   }
   .container{
     @apply max-w-[1000px];
@@ -34,6 +34,6 @@
     @apply bg-rose-900 hover:bg-rose-800;
   }
   .btn-green{
-    @apply bg-green-660 hover:bg-green-800;
+    @apply bg-green-600 hover:bg-green-800;
   }
 }
