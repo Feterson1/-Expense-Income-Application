@@ -19,7 +19,7 @@
 
 @layer components {
   .btn {
-    @apply flex gap-2 items-center  text-white py-2 px-4 rounded-md text-white;
+    @apply flex gap-2 items-center  text-white py-2 px-4 rounded-md text-white disabled:cursor-not-allowed disabled:bg-gray-400 disabled:hover:bg-gray-400;
   }
   .input{
     @apply bg-transparent p-2 border bg-slate-700 placeholder:text-sm placeholder:text-white rounded-md outline-none focus:border-slate-300;
